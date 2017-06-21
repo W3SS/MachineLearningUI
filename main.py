@@ -28,6 +28,23 @@ print 'from pprint import pprint'
 from pprint import pprint
 system('cls')
 
+print """
+William Gerecke
+Course         ----- https://www.udacity.com/course/intro-to-machine-learning--ud120
+Code (Git Hub) ----- https://github.com/wlgfour/MachineLearningUI/blob/master/main.py
+
+This program is meant to provide an interface with which to practice machiene learning and investigate the diffreences between algorithms.
+It is also meant to be very easy to add and alter the source code from behind the scenes. Reoccuring code blocks appear in seperate and easy to
+use functions such as the chop() function. This function provides the user with the oppurtunity to first select any one, two or three dimmensioanl
+array that already exists in the program, then enter a function where whole number integers evaluated in a given range will be used as 
+indicies to select new values from ann array. This is useful because because it allows for the user to (for example, use the MINST dataset),
+select, say all values in a line across the middle of the digit and compare them with an algorithm of their chooosing. 
+
+"""
+print "\nPress any key to continue"
+m.getch()
+
+
 digits = load_digits()
 
 colorss = ['#000000', '#FF0000', '#FFFF00', '#00FF00', '#00FFFF', '#000080', '#FF00FF', '#800080', '#FF69B4', '#BC8F8F']

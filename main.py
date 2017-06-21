@@ -38,7 +38,11 @@ It is also meant to be very easy to add and alter the source code from behind th
 use functions such as the chop() function. This function provides the user with the oppurtunity to first select any one, two or three dimmensioanl
 array that already exists in the program, then enter a function where whole number integers evaluated in a given range will be used as 
 indicies to select new values from ann array. This is useful because because it allows for the user to (for example, use the MINST dataset),
-select, say all values in a line across the middle of the digit and compare them with an algorithm of their chooosing. 
+select, say all values in a line across the middle of the digit and compare them with an algorithm of their chooosing. In this program, all methods
+can be used on another dataset and it is easy to import new datasets from the user side. I have an option that allows the user to type a function 
+included in sklearn.datasets, for example: load_digits() for the MINST dataset and load_boston() for the boston house prices dataset.
+It is very easy to add algorithms to the code becaue all you need to do is make a function that is identical to the other algorithms that are
+already in use, beginning on line 486 and change the parameters that are asked for and the function call that creates the classifier.
 
 """
 print "\nPress any key to continue"
